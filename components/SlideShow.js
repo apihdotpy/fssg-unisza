@@ -16,7 +16,7 @@ export default function SlideShow({ images }) {
         autoPlayInterval={3000}
       >
         {images.map((url, index) => (
-          <img src={url} alt="" />
+          <img key={index} src={url} alt="" />
         ))}
       </AliceCarousel>
     </div>
