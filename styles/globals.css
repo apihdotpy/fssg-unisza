@@ -1,16 +1,100 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Tulise";
+    src: url("/fonts/Inter-Regular.woff2") format("woff2"),
+      url("/fonts/Inter-Regular.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Tulise";
+    src: url("/fonts/Inter-Medium.woff2") format("woff2"),
+      url("/fonts/Inter-Medium.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Tulise";
+    src: url("/fonts/Inter-Semibold.woff2") format("woff2"),
+      url("/fonts/Inter-Semibold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Tulise";
+    src: url("/fonts/Inter-ExtraBold.woff2") format("woff2"),
+      url("/fonts/Inter-ExtraBold.woff") format("woff");
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  html {
+    font-family: "Tulise";
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Headings */
+  h1 {
+    @apply text-4xl sm:text-5xl lg:text-6xl;
+  }
+  h2 {
+    @apply text-2xl sm:text-4xl lg:text-5xl;
+  }
+  h3 {
+    @apply text-3xl;
+  }
+  h4 {
+    @apply text-2xl;
+  }
+  h5 {
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: medium;
+  }
+  h6 {
+    @apply text-base;
+  }
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@layer components {
+  .bg-pattern1 {
+    background-image: url("/pattern1.svg");
+    background-size: cover;
+  }
+  .bg-pattern2 {
+    background-image: url("/pattern2.svg");
+    background-size: cover;
+  }
+  .bg-pattern3 {
+    background-image: url("/pattern3.svg");
+    background-size: cover;
+  }
+
+  .link-underline::before {
+    transition: transform 0.3s ease;
+    transform: scaleX(0);
+    @apply absolute block content-[""] w-full h-0.5 bg-primary-800  bottom-0 left-0;
+  }
+  .link-underline:hover::before {
+    transform: scaleX(1);
+  }
 }
 
-* {
-  box-sizing: border-box;
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
 }
