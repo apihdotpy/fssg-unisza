@@ -37,6 +37,7 @@
 
   html {
     font-family: "Tulise";
+    @apply scroll-smooth;
   }
   body {
     padding: 0;
@@ -48,10 +49,10 @@
     @apply text-4xl sm:text-5xl lg:text-6xl;
   }
   h2 {
-    @apply text-2xl sm:text-4xl lg:text-5xl;
+    @apply text-3xl sm:text-4xl;
   }
   h3 {
-    @apply text-3xl;
+    @apply text-2xl sm:text-3xl;
   }
   h4 {
     @apply text-2xl;
@@ -77,6 +78,10 @@
   }
   .bg-pattern3 {
     background-image: url("/pattern3.svg");
+    background-size: cover;
+  }
+  .bg-pattern4 {
+    background-image: url("/pattern4.svg");
     background-size: cover;
   }
 

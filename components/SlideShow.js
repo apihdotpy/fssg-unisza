@@ -5,7 +5,7 @@ import { AiFillCaretRight, AiFillCaretLeft } from "react-icons/ai";
 
 export default function SlideShow({ images }) {
   return (
-    <div className="bg-blue-100">
+    <div className="mx-auto max-w-7xl">
       <AliceCarousel
         renderNextButton={NextButton}
         renderPrevButton={PrevButton}
@@ -25,16 +25,16 @@ export default function SlideShow({ images }) {
 
 const NextButton = () => {
   return (
-    <div className="absolute right-0 top-[38%] flex bg-red-500">
+    <button className="absolute right-4 top-[38%] bg-slate-900/40 h-10 w-10 rounded-full flex justify-center items-center transition hover:scale-105">
       <AiFillCaretRight className="" size={24} />
-    </div>
+    </button>
   );
 };
 
 const PrevButton = () => {
   return (
-    <div className="absolute left-0 top-[50%] flex bg-red-500">
+    <button className="absolute left-4 top-[36%] bg-slate-900/40 h-10 w-10 rounded-full flex justify-center items-center transition hover:scale-105">
       <AiFillCaretLeft className="" size={24} />
-    </div>
+    </button>
   );
 };

@@ -21,7 +21,7 @@ export const PERANAN = [
     icon: AiOutlineSmile,
     title: "Menyediakan persekitaran pengajaran dan pembelajaran yang kondusif",
     description:
-      "Membudayakan pemikiran saintifik, reflektif, kreatif dan inovatif dalam kalangan kakitangan akademik dan pelajar untuk membangunkan ekosistem ilmu beracuankan UniSZA serta membina korpus ilmu sains sosial gunaan yang terunggul di tanahair dan juga di peringkat antarabangsa.",
+      "Membudayakan pemikiran saintifik, reflektif, kreatif dan inovatif dalam kalangan kakitangan akademik dan pelajar untuk membangunkan ekosistem ilmu beracuankan UniSZA",
   },
   {
     id: 4,
