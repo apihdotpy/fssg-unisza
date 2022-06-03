@@ -4,13 +4,13 @@ export default function Peranan({ index, icon, title, description }) {
   const Icon = icon;
   return (
     <div
-      className={`flex flex-col items-center gap-y-4 lg:px-20 lg:items-start lg:border-r lg:border-slate-100/30${
+      className={`flex flex-col items-center gap-y-4 lg:px-[72px] lg:items-start lg:border-r lg:border-slate-100/30${
         (index + 1) % 3 === 0 ? " border-none" : ""
       }`}
     >
       <Icon className="text-primary-400 h-8 w-8 lg:h-14 lg:w-14" />
-      <div className="lg:h-24">
-        <h5 className="text-white font-bold text-center lg:text-left lg:font-xl">
+      <div className="lg:h-28">
+        <h5 className="text-white font-bold text-center lg:text-left lg:font-xl tracking-wider">
           {title}
         </h5>
       </div>

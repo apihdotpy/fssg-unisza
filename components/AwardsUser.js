@@ -9,7 +9,7 @@ export default function AwardsUser({ name, image }) {
           <Image src={image} layout="fill" />
         </div>
       </div>
-      <span className="text-sm group-hover:text-primary-500 group-hover:font-bold lg:text-base lg:font-semibold">
+      <span className="text-sm group-hover:text-primary-500 group-hover:font-bold lg:text-base lg:font-semibold lg:py-4">
         {name}
       </span>
     </div>

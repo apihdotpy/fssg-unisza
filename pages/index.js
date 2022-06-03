@@ -62,23 +62,23 @@ export default function Home() {
                     {` berilmu pengetahuan `}
                   </span>
                   ,
-                  <span className="font-semibold text-yellow-400">
+                  <span className="font-bold text-yellow-400">
                     {` profesional `}
                   </span>
                   ,
-                  <span className="font-semibold text-yellow-400">
+                  <span className="font-bold text-yellow-400">
                     {` berakhlak tinggi `}
                   </span>
                   ,
-                  <span className="font-semibold text-yellow-400">
+                  <span className="font-bold text-yellow-400">
                     {`  kreatif `}
                   </span>
                   ,
-                  <span className="font-semibold text-yellow-400">
+                  <span className="font-bold text-yellow-400">
                     {`  meneroka `}
                   </span>
                   dan
-                  <span className="font-semibold text-yellow-400">
+                  <span className="font-bold text-yellow-400">
                     {`  menyelidik `}.
                   </span>
                 </p>
@@ -87,7 +87,7 @@ export default function Home() {
                   <AiOutlineArrowRight size={20} />
                 </a>
               </div>
-              <div className="my-12 md:flex-1">
+              <div className="py-12 md:flex-1">
                 <img
                   src="/logo.png"
                   alt="logo-fssg"
