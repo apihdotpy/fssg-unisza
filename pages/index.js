@@ -88,11 +88,19 @@ export default function Home() {
                 </a>
               </div>
               <div className="py-12 md:flex-1">
-                <img
-                  src="/logo.png"
-                  alt="logo-fssg"
-                  className="w-60 h-60 mx-auto"
-                />
+                {/* from tailwind tutorial - blob animated */}
+                <div class="relative w-full max-w-lg">
+                  <div class="absolute top-0 -left-4 w-72 h-72 bg-purple-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+                  <div class="absolute top-0 -right-4 w-72 h-72 bg-yellow-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+                  <div class="absolute -bottom-8 left-20 w-72 h-72 bg-pink-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+                  <div class="m-8 relative space-y-4">
+                    <img
+                      src="/logo.png"
+                      alt="logo-fssg"
+                      className="w-60 h-60 mx-auto"
+                    />
+                  </div>
+                </div>
               </div>
             </article>
           </Container>
