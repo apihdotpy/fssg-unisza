@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "../components/Header";
+import {Html} from "next/document"
 // data
 import { PERANAN } from "../data/peranan";
 import { images } from "../data/carousel-data";
@@ -33,7 +34,7 @@ import Peranan from "../components/Peranan";
 
 export default function Home() {
   return (
-    <>
+    <Html lang="en">
       <Head>
         <title>FSSG Official</title>
         <meta
@@ -224,6 +225,6 @@ export default function Home() {
           <AiFillTwitterSquare size={20} />
         </div>
       </footer>
-    </>
+    </Html>
   );
 }
