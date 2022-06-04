@@ -34,6 +34,15 @@ import Peranan from "../components/Peranan";
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>FSSG Official</title>
+        <meta
+          name="description"
+          content="Fakulti Sains Sosial dan Gunaan Official Website"
+        />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
       <Header />
       <main>
         {/* Introduction */}
