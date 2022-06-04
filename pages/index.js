@@ -34,12 +34,7 @@ import Peranan from "../components/Peranan";
 export default function Home() {
   return (
     <>
-      <header className="sticky top-0 bg-white z-40 border border-slate-900/10">
-        <div className="flex justify-between items-center py-4 max-w-8xl mx-auto px-[6%]">
-          <img src="/logo-unisza.jpg" alt="logo unisza" className="h-10" />
-          <AiOutlineMenu />
-        </div>
-      </header>
+      <Header />
       <main>
         {/* Introduction */}
         <div className="min-h-screen bg-pattern1 bg-no-repeat">
@@ -82,22 +77,23 @@ export default function Home() {
                     {`  menyelidik `}.
                   </span>
                 </p>
-                <a className="h-12 px-6 rounded-lg w-full flex gap-x-2 items-center justify-center bg-black font-semibold transition  text-white hover:scale-105 hover:bg-primary-500 hover:text-black lg:py-7 lg:mx-auto lg:w-64 lg:mt-16">
+                <a className="h-12 px-6 cursor-pointer rounded-lg w-full flex gap-x-2 items-center justify-center bg-black font-semibold transition  text-white hover:scale-105 hover:bg-primary-500 hover:text-black lg:py-7 lg:mx-auto lg:w-64 lg:mt-16">
                   Lebih Lanjut
                   <AiOutlineArrowRight size={20} />
                 </a>
               </div>
               <div className="py-12 md:flex-1">
                 {/* from tailwind tutorial - blob animated */}
-                <div class="relative w-full max-w-lg">
-                  <div class="absolute top-0 -left-4 w-72 h-72 bg-purple-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
-                  <div class="absolute top-0 -right-4 w-72 h-72 bg-yellow-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
-                  <div class="absolute -bottom-8 left-20 w-72 h-72 bg-pink-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
-                  <div class="m-8 relative space-y-4">
-                    <img
+                <div className="relative w-full max-w-lg">
+                  <div className="absolute top-0 -left-4 w-72 h-72 bg-purple-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+                  <div className="absolute top-0 -right-4 w-72 h-72 bg-yellow-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+                  <div className="absolute -bottom-8 left-20 w-72 h-72 bg-pink-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+                  <div className="m-8 relative space-y-4">
+                    <Image
                       src="/logo.png"
                       alt="logo-fssg"
-                      className="w-60 h-60 mx-auto"
+                      height={240}
+                      width={240}
                     />
                   </div>
                 </div>

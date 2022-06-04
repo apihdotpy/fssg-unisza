@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import { AiFillCaretRight, AiFillCaretLeft } from "react-icons/ai";
@@ -15,8 +16,8 @@ export default function SlideShow({ images }) {
         autoPlay={true}
         autoPlayInterval={3000}
       >
-        {images.map((url, index) => (
-          <img key={index} src={url} alt="" />
+        {images.map((image, index) => (
+          <Image key={index} src={image.url} alt="" height={720} width={1280} />
         ))}
       </AliceCarousel>
     </div>

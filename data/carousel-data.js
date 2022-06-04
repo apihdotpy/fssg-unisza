@@ -1,8 +1,37 @@
 export const images = [
-  "https://d33wubrfki0l68.cloudfront.net/dd23708ebc4053551bb33e18b7174e73b6e1710b/dea24/static/images/wallpapers/shared-colors@2x.png",
-  "https://d33wubrfki0l68.cloudfront.net/49de349d12db851952c5556f3c637ca772745316/cfc56/static/images/wallpapers/bridge-02@2x.png",
-  "https://d33wubrfki0l68.cloudfront.net/594de66469079c21fc54c14db0591305a1198dd6/3f4b1/static/images/wallpapers/bridge-01@2x.png",
-  "https://d33wubrfki0l68.cloudfront.net/dd23708ebc4053551bb33e18b7174e73b6e1710b/dea24/static/images/wallpapers/shared-colors@2x.png",
-  "https://d33wubrfki0l68.cloudfront.net/49de349d12db851952c5556f3c637ca772745316/cfc56/static/images/wallpapers/bridge-02@2x.png",
-  "https://d33wubrfki0l68.cloudfront.net/594de66469079c21fc54c14db0591305a1198dd6/3f4b1/static/images/wallpapers/bridge-01@2x.png",
+  {
+    id: 1,
+    url: "/images/shared-colors@2x.png",
+    alt: "slide1",
+  },
+  {
+    id: 2,
+    url: "/images/bridge-02@2x.png",
+    alt: "slide2",
+  },
+  {
+    id: 3,
+    url: "/images/bridge-01@2x.png",
+    alt: "slide3",
+  },
+  {
+    id: 4,
+    url: "/images/bridge-01@2x.png",
+    alt: "slide4",
+  },
+  {
+    id: 5,
+    url: "/images/shared-colors@2x.png",
+    alt: "slide5",
+  },
+  {
+    id: 6,
+    url: "/images/bridge-02@2x.png",
+    alt: "slide6",
+  },
+  {
+    id: 7,
+    url: "/images/bridge-01@2x.png",
+    alt: "slider7",
+  },
 ];
