@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/Link";
+import Link from "next/link";
 import { AiOutlineMenu } from "react-icons/ai";
 
 export default function Header() {
