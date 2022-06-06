@@ -7,8 +7,14 @@ export default function Header() {
   return (
     <header className="sticky top-0 bg-white z-40 border border-slate-900/10 lg:border-none">
       <div className="flex justify-between items-center py-4 max-w-8xl mx-auto px-[6%]">
-        <div className="relative h-10 w-[106.25px]">
-          <Image src="/logo-unisza.jpg" alt="logo unisza" layout="fill" />
+        <div className="relative h-12 w-[106.25px]">
+          <Image
+            src="/logo-unisza.jpg"
+            alt="logo unisza"
+            layout="fill"
+            height={314}
+            width={834}
+          />
         </div>
         <AiOutlineMenu className="lg:hidden" />
         <nav className="hidden lg:block">

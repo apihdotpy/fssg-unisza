@@ -13,19 +13,15 @@ import Container from "../components/Container";
 import CardLink from "../components/CardLink";
 // icons
 import {
-  AiOutlineMenu,
   AiOutlineArrowRight,
   AiFillFacebook,
   AiFillInstagram,
   AiFillTwitterSquare,
-  AiOutlineCalendar,
   AiFillInfoCircle,
   AiFillPhone,
   AiFillContainer,
   AiFillMail,
 } from "react-icons/ai";
-import { MdOutlinePsychology } from "react-icons/md";
-import { icons } from "react-icons";
 import AwardsUser from "../components/AwardsUser";
 import SlideShow from "../components/SlideShow";
 import Article from "../components/Article";
@@ -91,21 +87,13 @@ export default function Home() {
                   <AiOutlineArrowRight size={20} />
                 </a>
               </div>
-              <div className="py-12 md:flex-1">
-                {/* from tailwind tutorial - blob animated */}
-                <div className="relative w-full max-w-lg">
-                  <div className="absolute top-0 -left-4 w-72 h-72 bg-purple-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
-                  <div className="absolute top-0 -right-4 w-72 h-72 bg-yellow-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
-                  <div className="absolute -bottom-8 left-20 w-72 h-72 bg-pink-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
-                  <div className="m-8 relative space-y-4">
-                    <Image
-                      src="/logo.png"
-                      alt="logo-fssg"
-                      height={240}
-                      width={240}
-                    />
-                  </div>
-                </div>
+              <div className="py-12 px-20 md:flex-1 flex justify-center">
+                <Image
+                  src="/logo.png"
+                  alt="logo-fssg"
+                  height={1010}
+                  width={980}
+                />
               </div>
             </article>
           </Container>
