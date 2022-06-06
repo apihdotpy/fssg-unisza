@@ -82,7 +82,7 @@ export default function Home() {
                     {`  menyelidik `}.
                   </span>
                 </p>
-                <a className="h-12 px-6 cursor-pointer rounded-lg w-full flex gap-x-2 items-center justify-center bg-black font-semibold transition  text-white hover:scale-105 hover:bg-primary-500 hover:text-black lg:py-7 lg:mx-auto lg:w-64 lg:mt-16">
+                <a className="h-12 px-6 cursor-pointer rounded-lg w-full flex gap-x-2 items-center justify-center bg-black font-semibold transition  text-white hover:scale-105 focus:ring-yellow-600 hover:bg-primary-500 hover:text-black lg:py-7 lg:mx-auto lg:w-64 lg:mt-16">
                   Lebih Lanjut
                   <AiOutlineArrowRight size={20} />
                 </a>

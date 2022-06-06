@@ -21,21 +21,21 @@ export default function Header() {
           <ol className="flex gap-x-8">
             <li className="text-slate-800 tracking-tight font-medium">
               <Link href="/domestic">
-                <a className="relative link-underline hover:text-primary-500 transition">
+                <a className="relative link-underline hover:text-primary-500 font-semibold">
                   Domestic
                 </a>
               </Link>
             </li>
             <li className="text-slate-800 tracking-tight font-medium">
               <Link href="/domestic">
-                <a className="relative link-underline hover:text-primary-500 transition">
+                <a className="relative link-underline hover:text-primary-500 font-semibold">
                   International
                 </a>
               </Link>
             </li>
             <li className="text-slate-800 tracking-tight font-medium">
               <Link href="/domestic">
-                <a className="relative link-underline hover:text-primary-500 transition">
+                <a className="relative link-underline hover:text-primary-500 font-semibold">
                   About
                 </a>
               </Link>
