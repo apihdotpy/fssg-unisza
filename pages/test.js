@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-function test() {
+function Test() {
   const [windowHeight, setWindowHeight] = useState("");
   const [navbarClassName, setNavbarClassName] = useState("");
 
@@ -43,4 +43,4 @@ function test() {
   );
 }
 
-export default test;
+export default Test;
