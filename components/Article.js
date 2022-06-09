@@ -5,7 +5,7 @@ import { AiFillCalendar } from "react-icons/ai";
 
 export default function Article({ title, imageUrl, category, alt }) {
   return (
-    <div className="flex items-center border gap-x-8 rounded-xl p-4 transition pb-3 h-40 bg-white drop-shadow-lg  border-slate-900/10 lg:p-6">
+    <div className="flex items-center border gap-x-8 rounded-xl p-4 transition pb-3 h-48 bg-white drop-shadow-lg  border-slate-900/10 lg:p-6">
       <div className="h-24 w-24 rounded-full overflow-hidden drop-shadow-sm ring-4 ring-primary-500">
         <Image src={imageUrl} layout="fill" alt={alt} />
       </div>
