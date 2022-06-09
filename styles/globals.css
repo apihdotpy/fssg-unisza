@@ -92,7 +92,7 @@
   .link-underline::before {
     transition: transform 0.3s ease;
     transform: scaleX(0);
-    @apply absolute block content-[""] w-full h-0.5 bg-primary-400  -bottom-1 left-0;
+    @apply absolute block content-[""] w-full h-0.5  -bottom-1 left-0;
   }
   .link-underline:hover::before {
     transform: scaleX(1);
